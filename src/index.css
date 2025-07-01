@@ -9,7 +9,8 @@
 @theme {
   --color-primary: #dab98f;
   --color-secondary: #6d4b2c;
-  --color-light-gray: #f1f1f1
+  --color-light-gray: #f1f1f1;
+  --color-dusty-orange: #e2a663
 }
 
 html {
