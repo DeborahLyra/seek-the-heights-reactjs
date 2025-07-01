@@ -1,69 +1,36 @@
-# React + TypeScript + Vite
+# ✨ Buscar o Alto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Buscar o Alto** is a Catholic website built with Vite, currently under development.  
+It is a space dedicated to faith, prayer, inspiration, and the spiritual journey toward God.
 
-Currently, two official plugins are available:
+## 🌐 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project aims to offer reflections, prayers, stories of saints, miracles, messages of hope, and teachings of the Catholic Church — all in a calm, accessible, and spiritually uplifting environment.
 
-## Expanding the ESLint configuration
+## 🚧 Project Status
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+> ⚠️ This website is currently **in development**.  
+> New sections, styles, and features are being added progressively.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- [Vite](https://vitejs.dev/) — fast and modern front-end tooling
+- [React](https://react.dev/) — component-based UI
+- [Tailwind CSS](https://tailwindcss.com/) — utility-first CSS framework
+- [React Router](https://reactrouter.com/) — client-side routing
+- [Lucide Icons](https://lucide.dev/) or Phosphor Icons — for elegant SVG icons
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📁 Project Structure
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+```bash
+buscar-o-alto/
+├── public/          # static files
+├── src/
+│   ├── assets/      # images and icons
+│   ├── components/  # reusable UI components
+│   ├── pages/       # site pages (Home, Saints, Messages, etc.)
+│   ├── App.jsx      # main layout
+│   └── main.jsx     # entry point
+├── index.html
+├── package.json
+└── tailwind.config.js
