@@ -1,6 +1,7 @@
-
-
 {
-    "title": "About the Site",
-    "description": "Seek the Heights is a space created to inspire, welcome, and strengthen faith. Here you will find reflections, stories of saints, miracles, prayers, messages, and teachings that help us walk with God in daily life. More than just a website, it's an invitation to lift your eyes, heart, and life toward the things above — where peace, hope, and true love dwell."
-}
+    "aboutTheSite": {
+      "title": "About the Site",
+      "description": "Seek the Heights is a space created to inspire, welcome, and strengthen faith. Here you will find reflections, stories of saints, miracles, prayers, messages, and teachings that help us walk with God in daily life. More than just a website, it's an invitation to lift your eyes, heart, and life toward the things above — where peace, hope, and true love dwell."
+    }
+  }
+  
