@@ -1,7 +1,11 @@
 {
-    "aboutTheSite": {
-      "title": "Sobre o Site",
-      "description": "Buscar o Alto é um espaço criado para inspirar, acolher e fortalecer a fé. Aqui, você encontrará reflexões, histórias de santos, milagres, orações, mensagens e ensinamentos que nos ajudam a caminhar com Deus no dia a dia. Mais do que um site, é um convite a elevar o olhar, o coração e a vida rumo às coisas do alto — onde habita a paz, a esperança e o amor verdadeiro."
-    }
+  "aboutTheSite": {
+    "title": "Sobre o Site",
+    "description": "Buscar o Alto é um espaço criado para inspirar, acolher e fortalecer a fé. Aqui, você encontrará reflexões, histórias de santos, milagres, orações, mensagens e ensinamentos que nos ajudam a caminhar com Deus no dia a dia. Mais do que um site, é um convite a elevar o olhar, o coração e a vida rumo às coisas do alto — onde habita a paz, a esperança e o amor verdadeiro."
+  },
+  "aboutChurch": {
+    "aboutChurchTitle": "Sobre a Igreja Católica",
+    "aboutChurchText": "A Igreja Católica é mais do que uma instituição — é uma família espiritual, viva e universal, fundada por Jesus Cristo e guiada pelo Espírito Santo há mais de dois mil anos. Presente em todos os cantos do mundo, ela anuncia o Evangelho, celebra os sacramentos e acolhe a todos que desejam viver uma fé concreta, profunda e transformadora. É na Igreja que encontramos o alimento da Palavra, a força da Eucaristia, o testemunho dos santos e a beleza de uma tradição que une fé e razão, coração e história.",
+    "churchImageAlt": "Altar de igreja católica"
   }
-  
+}

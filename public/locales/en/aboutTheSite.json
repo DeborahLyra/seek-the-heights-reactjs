@@ -1,7 +1,11 @@
 {
-    "aboutTheSite": {
-      "title": "About the Site",
-      "description": "Seek the Heights is a space created to inspire, welcome, and strengthen faith. Here you will find reflections, stories of saints, miracles, prayers, messages, and teachings that help us walk with God in daily life. More than just a website, it's an invitation to lift your eyes, heart, and life toward the things above — where peace, hope, and true love dwell."
-    }
+  "aboutTheSite": {
+    "title": "About the Site",
+    "description": "Seek the Heights is a space created to inspire, welcome, and strengthen faith. Here you will find reflections, stories of saints, miracles, prayers, messages, and teachings that help us walk with God in daily life. More than just a website, it's an invitation to lift your eyes, heart, and life toward the things above — where peace, hope, and true love dwell."
+  },
+  "aboutChurch": {
+    "aboutChurchTitle": "About the Catholic Church",
+    "aboutChurchText": "The Catholic Church is more than just an institution — it is a spiritual, living, and universal family, founded by Jesus Christ and guided by the Holy Spirit for over two thousand years. Present in every corner of the world, it proclaims the Gospel, celebrates the sacraments, and welcomes all who seek to live a concrete, profound, and transformative faith. In the Church, we find the nourishment of the Word, the strength of the Eucharist, the witness of the saints, and the beauty of a tradition that unites faith and reason, heart and history.",
+    "churchImageAlt": "Catholic church altar"
   }
-  
+}
