@@ -1,6 +1,6 @@
 'use client'
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   Dialog,
   DialogPanel,
@@ -16,13 +16,19 @@ import CrossIcon from '../../public/cross-icon.svg'
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { i18n } = useTranslation();
-  const { t } = useTranslation();
+  const { t } = useTranslation('header');
   const navigate = useNavigate();
 
   const handleNavigate = (section: string) => {
     setMobileMenuOpen(false);
     navigate('/', { state: { scrollTo: section } });
   };
+
+  useEffect(() => {
+    console.log('Current language:', i18n.language);
+    console.log('Available languages:', i18n.languages);
+    console.log('Header translations:', i18n.getResourceBundle(i18n.language, 'header'));
+  }, [i18n.language]);
 
   return (
     <header className="bg-light-gray border-b-2 border-black">
@@ -47,16 +53,16 @@ export function Navbar() {
 
         <PopoverGroup className="hidden lg:flex lg:gap-x-12 items-center">
           <a onClick={() => handleNavigate('aboutMe')} className="cursor-pointer text-md font-light text-secondary hover:text-dusty-orange transition-colors">
-            {t('navbar.about')}
+            {t('navbar.aboutSite')}
           </a>
           <a onClick={() => handleNavigate('manifesto')} className="cursor-pointer text-md font-light text-secondary hover:text-dusty-orange transition-colors">
-            {t('navbar.exp')}
+            {t('navbar.aboutChurch')}
           </a>
           <a onClick={() => handleNavigate('projects')} className="cursor-pointer text-md font-light text-secondary hover:text-dusty-orange transition-colors">
-            {t('navbar.proj')}
+            {t('navbar.faithExamples')}
           </a>
           <a onClick={() => handleNavigate('contact')} className="cursor-pointer text-md font-light text-secondary hover:text-dusty-orange transition-colors">
-            {t('navbar.con')}
+            {t('navbar.miracles')}
           </a>
 
           <div className="flex items-center gap-2 ml-4">
