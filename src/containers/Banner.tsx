@@ -6,7 +6,7 @@ export function Banner() {
     const { t } = useTranslation('header');
 
     return (
-        <div
+        <section
             id='banner'
             className="bg-primary text-secondary p-4 md:p-8 flex items-center justify-between flex-col gap-8 md:flex-row"
         >
@@ -17,6 +17,6 @@ export function Banner() {
 
             <img src={imgBanner} alt="" className='h-fit md:h-80 lg:h-96 rounded-4xl'/>
 
-        </div>
+        </section>
     )
 }

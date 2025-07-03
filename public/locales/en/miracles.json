@@ -1,0 +1,20 @@
+{
+  "title": "Miracles",
+  "description": "Signs of God's love and mercy that remind us nothing is impossible for Him. Stories that strengthen faith and invite us to trust in divine action.",
+  "list": {
+    "lanciano": {
+      "title": "Eucharistic Miracle of Lanciano",
+      "description": "Consecrated host turned into flesh and wine into blood, verified by scientific studies."
+    },
+    "guadalupe": {
+      "title": "Our Lady of Guadalupe",
+      "description": "The image imprinted on Juan Diego's cloak remains intact for centuries, defying scientific explanation."
+    },
+    "fatima": {
+      "title": "The Miracle of the Sun in Fátima",
+      "description": "In front of thousands, the sun danced in the sky, spun around, and emitted multicolored lights."
+    }
+  },
+  "seeMore": "See more"
+
+}

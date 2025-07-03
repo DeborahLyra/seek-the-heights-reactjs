@@ -2,6 +2,7 @@ import { AboutChurch } from "../containers/AboutChurch";
 import { AboutTheSite } from "../containers/AboutTheSite";
 import { Banner } from "../containers/Banner";
 import { FaithExamples } from "../containers/FaithExamples";
+import { Miracles } from "../containers/Miracles";
 import { Navbar } from "../containers/Navbar";
 
 export default function HomePage() {
@@ -12,6 +13,7 @@ export default function HomePage() {
       <AboutTheSite />
       <AboutChurch />
       <FaithExamples />
+      <Miracles />
     </div>
   )
 }

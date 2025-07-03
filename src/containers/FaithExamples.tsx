@@ -23,7 +23,7 @@ export function FaithExamples() {
   const { t } = useTranslation('faithExamples');
 
   return (
-    <div id="faithExamples" className="bg-light-gray text-secondary p-8">
+    <section id="faithExamples" className="bg-light-gray text-secondary p-8">
       <div className="flex flex-col md:flex-row items-center justify-between">
         <h2 className="text-3xl font-bold mb-8">{t('title')}</h2>
         <p className="text-lg font-light md:w-[700px] text-justify">
@@ -63,6 +63,6 @@ export function FaithExamples() {
           {t('seeMore')}
         </button>
       </div>
-    </div>
+    </section>
   );
 }

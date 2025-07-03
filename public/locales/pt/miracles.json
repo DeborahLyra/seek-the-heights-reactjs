@@ -1,0 +1,19 @@
+{
+  "title": "Milagres",
+  "description": "Sinais do amor e da misericórdia de Deus que nos recordam que nada é impossível para Ele. Histórias que fortalecem a fé e nos convidam a confiar no agir divino.",
+  "list": {
+    "lanciano": {
+      "title": "Milagre Eucarístico de Lanciano",
+      "description": "Hóstia consagrada que se transformou em carne e vinho em sangue, comprovado por estudos científicos."
+    },
+    "guadalupe": {
+      "title": "Nossa Senhora de Guadalupe",
+      "description": "A imagem impressa no manto de Juan Diego permanece intacta há séculos, desafiando explicações científicas."
+    },
+    "fatima": {
+      "title": "Milagre do Sol em Fátima",
+      "description": "Diante de milhares de pessoas, o sol dançou no céu, girou sobre si e emitiu luzes multicoloridas."
+    }
+  },
+  "seeMore": "Ver mais"
+}

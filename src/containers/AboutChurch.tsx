@@ -5,7 +5,7 @@ export function AboutChurch() {
     const { t } = useTranslation('aboutTheSite');
 
     return (
-        <div className="bg-primary text-secondary p-8">
+        <section className="bg-primary text-secondary p-8">
             <h2 className="text-3xl font-bold mb-8">{t('aboutChurch.aboutChurchTitle')}</h2>
             <div className="flex flex-col-reverse md:flex-row items-center justify-around gap-8">
                 <p className="text-lg font-light text-justify md:w-[700px]">
@@ -17,6 +17,6 @@ export function AboutChurch() {
                     className="h-60 md:h-96 rounded-lg"
                 />
             </div>
-        </div>
+        </section>
     );
 }
