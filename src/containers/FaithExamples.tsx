@@ -41,7 +41,7 @@ export function FaithExamples() {
             <img
               src={person.img}
               alt={t(`people.${person.key}.name`)}
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-center"
             />
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">
