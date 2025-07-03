@@ -1,0 +1,19 @@
+{
+    "title": "Examples of Faith",
+    "description": "Lives that reflect the light from above and show us the path of true and living faith — with acts of love, surrender, and hope that transcend time and continue to touch hearts.",
+    "seeMore": "See more",
+    "people": {
+        "jesus": {
+          "name": "Jesus Christ",
+          "description": "Son of God, the ultimate example of love, faith, and complete surrender to the Father's will."
+        },
+        "mary": {
+          "name": "Mary",
+          "description": "Mother of Jesus, a model of humility, obedience, and complete trust in God."
+        },
+        "francis": {
+          "name": "St. Francis of Assisi",
+          "description": "A man of peace and simplicity who lived the Gospel radically and loved all creation."
+        }
+      }
+}

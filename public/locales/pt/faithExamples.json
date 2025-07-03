@@ -1,0 +1,19 @@
+{
+    "title": "Exemplos de Fé",
+    "description": "Vidas que refletem a luz do Alto e nos mostram o caminho da fé viva e verdadeira — com gestos de amor, entrega e esperança que atravessam os tempos e continuam a tocar corações.",
+    "seeMore": "Ver mais",
+    "people": {
+        "jesus": {
+          "name": "Jesus Cristo",
+          "description": "Filho de Deus, exemplo supremo de amor, fé e entrega total à vontade do Pai."
+        },
+        "mary": {
+          "name": "Maria",
+          "description": "Mãe de Jesus, modelo de humildade, obediência e confiança plena em Deus."
+        },
+        "francis": {
+          "name": "São Francisco de Assis",
+          "description": "Homem de paz e simplicidade, que viveu o Evangelho com radicalidade e amor à criação."
+        }
+      }
+}
