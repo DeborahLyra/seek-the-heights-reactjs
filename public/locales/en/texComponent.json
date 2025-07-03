@@ -1,0 +1,19 @@
+{
+    "title": "Between Lines and Skies",
+    "description": "Texts that invite pause, silence, and inner listening. Reflections, stories, and inspirations that, between one line and another, point to the Heights.",
+    "list": {
+        "m1": {
+            "title": "Miracle 1",
+            "description": "A brief description of miracle or reflection 1."
+        },
+        "m2": {
+            "title": "Miracle 2",
+            "description": "A brief description of miracle or reflection 2."
+        },
+        "m3": {
+            "title": "Miracle 3",
+            "description": "A brief description of miracle or reflection 3."
+        }
+    },
+    "seeMore": "See more"
+}

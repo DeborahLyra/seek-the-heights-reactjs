@@ -1,0 +1,19 @@
+{
+    "title": "Entre Linhas e Céus",
+    "description": "Textos que convidam à pausa, ao silêncio e à escuta interior. Reflexões, histórias e inspirações que, entre uma linha e outra, apontam para o Alto.",
+    "list": {
+        "m1": {
+            "title": "Milagre 1",
+            "description": "Uma breve descrição do milagre ou reflexão 1."
+        },
+        "m2": {
+            "title": "Milagre 2",
+            "description": "Uma breve descrição do milagre ou reflexão 2."
+        },
+        "m3": {
+            "title": "Milagre 3",
+            "description": "Uma breve descrição do milagre ou reflexão 3."
+        }
+    },
+    "seeMore": "Ver mais"
+}
