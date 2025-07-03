@@ -4,6 +4,7 @@ import { Banner } from "../containers/Banner";
 import { FaithExamples } from "../containers/FaithExamples";
 import { Miracles } from "../containers/Miracles";
 import { Navbar } from "../containers/Navbar";
+import { TextComponent } from "../containers/TextsComponent";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <AboutChurch />
       <FaithExamples />
       <Miracles />
+      <TextComponent />
     </div>
   )
 }
