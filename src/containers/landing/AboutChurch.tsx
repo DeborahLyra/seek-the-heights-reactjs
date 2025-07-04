@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import ChurchImage from '../../public/img/aboutChurch.webp';
+import ChurchImage from '../../../public/img/aboutChurch.webp';
 
 export function AboutChurch() {
     const { t } = useTranslation('aboutTheSite');

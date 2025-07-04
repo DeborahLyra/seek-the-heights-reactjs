@@ -11,7 +11,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline';
 import { useNavigate } from 'react-router-dom';
-import CrossIcon from '../../public/cross-icon.svg'
+import CrossIcon from '../../../public/cross-icon.svg'
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

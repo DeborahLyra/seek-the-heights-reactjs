@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import imgBanner from '../../public/img/imagemBanner.jpeg'
+import imgBanner from '../../../public/img/imagemBanner.jpeg'
 
 export function Banner() {
 

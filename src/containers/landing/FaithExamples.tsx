@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
-import JesusImage from '../../public/img/people/jesusImage.jpeg';
-import MaryImage from '../../public/img/people/maryImage.jpeg';
-import FrancisImage from '../../public/img/people/stFrancisImage.jpeg';
+import JesusImage from '../../../public/img/people/jesusImage.jpeg';
+import MaryImage from '../../../public/img/people/maryImage.jpeg';
+import FrancisImage from '../../../public/img/people/stFrancisImage.jpeg';
 
 const listPeople = [
   {
