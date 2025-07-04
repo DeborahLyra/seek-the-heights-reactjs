@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const miraclesList = ['m1', 'm2', 'm3'];
 
 export function TextComponent() {
-  const { t } = useTranslation('TextComponent');
+  const { t } = useTranslation('textComponent');
 
   return (
     <section id="linesAndSky" className="bg-light-gray text-secondary p-8">
