@@ -7,7 +7,7 @@ export function TextComponent() {
   const { t } = useTranslation('TextComponent');
 
   return (
-    <section id="textComponent" className="bg-light-gray text-secondary p-8">
+    <section id="linesAndSky" className="bg-light-gray text-secondary p-8">
       <div className="flex flex-col md:flex-row items-center justify-between">
         <h2 className="text-3xl font-bold mb-8">{t('title')}</h2>
         <p className="text-lg font-light text-justify md:w-[700px]">

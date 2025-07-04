@@ -7,7 +7,7 @@ export function AboutChurch() {
     return (
         <section className="bg-primary text-secondary p-8">
             <h2 className="text-3xl font-bold mb-8">{t('aboutChurch.aboutChurchTitle')}</h2>
-            <div className="flex flex-col-reverse md:flex-row items-center justify-around gap-8">
+            <div className="flex flex-col-reverse lg:flex-row items-center justify-around gap-8">
                 <p className="text-lg font-light text-justify md:w-[700px]">
                     {t('aboutChurch.aboutChurchText')}
                 </p>

@@ -1,10 +1,8 @@
 {
     "navbar": {
-      "aboutSite": "About the site",
-      "aboutChurch": "About the Catholic Church",
       "faithExamples": "Examples of faith",
       "miracles": "Miracles",
-      "betweenHeaven": "Between Lines and Heavens"
+      "linesAndSky": "Between Lines and Heavens"
     },
     "banner": {
       "title": "Seek the Heights",

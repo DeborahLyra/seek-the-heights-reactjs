@@ -15,10 +15,10 @@ export function Footer() {
                 </div>
 
                 <nav className="flex flex-wrap gap-4 text-sm font-medium">
-                    <Link to="#banner" className="hover:underline">{t('links.home')}</Link>
-                    <Link to="#examplesOfFaith" className="hover:underline">{t('links.examples')}</Link>
-                    <Link to="#miracles" className="hover:underline">{t('links.miracles')}</Link>
-                    <Link to="#" className="hover:underline">{t('links.faithExamples')}</Link>
+                    <a href="#banner" className="hover:underline">{t('links.home')}</a>
+                    <a href="#examplesOfFaith" className="hover:underline">{t('links.examples')}</a>
+                    <a href="#miracles" className="hover:underline">{t('links.miracles')}</a>
+                    <a href="#linesAndSky" className="hover:underline">{t('links.linesAndSky')}</a>
                 </nav>
             </div>
         </footer>
