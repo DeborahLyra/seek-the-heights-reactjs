@@ -1,0 +1,10 @@
+{
+    "modal": {
+      "title": "Message",
+      "text": "message text",
+      "close": "Close",
+      "viewAll": "View all messages",
+      "openDialog": "Open dialog"
+    }
+  }
+  

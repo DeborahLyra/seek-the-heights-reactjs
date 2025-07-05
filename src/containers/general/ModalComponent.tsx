@@ -1,18 +1,19 @@
 'use client'
 
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
-import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 import CrossIcon from '../../../public/cross-icon.svg'
+import { useTranslation } from 'react-i18next'
 
 export default function ModalComponent({ open, setOpen }: { open: boolean, setOpen: (value: boolean) => void }) {
- 
+  const { t } = useTranslation('modal')
+
   return (
     <div>
       <button
         onClick={() => setOpen(true)}
         className="rounded-md bg-gray-950/5 px-2.5 py-1.5 text-sm font-semibold text-gray-900 hover:bg-gray-950/10"
       >
-        Open dialog
+        {t('modal.openDialog')}
       </button>
       <Dialog open={open} onClose={setOpen} className="relative z-10">
         <DialogBackdrop
@@ -29,15 +30,15 @@ export default function ModalComponent({ open, setOpen }: { open: boolean, setOp
               <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                 <div className="sm:flex sm:items-start">
                   <div className="mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-secondary sm:mx-0 sm:size-10">
-                   <img src={CrossIcon} alt="" />
+                    <img src={CrossIcon} alt="" />
                   </div>
                   <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                     <DialogTitle as="h3" className="text-base font-semibold text-secondary">
-                      Mensagem
+                      {t('modal.title')}
                     </DialogTitle>
                     <div className="mt-2">
                       <p className="text-sm text-secondary">
-                        texto da mensagem
+                        {t('modal.text')}
                       </p>
                     </div>
                   </div>
@@ -49,9 +50,16 @@ export default function ModalComponent({ open, setOpen }: { open: boolean, setOp
                   onClick={() => setOpen(false)}
                   className="inline-flex w-full justify-center rounded-md bg-secondary px-3 py-2 text-sm font-semibold text-light-gray shadow-xs hover:bg-primary sm:ml-3 sm:w-auto cursor-pointer"
                 >
-                  Fechar
+                  {t('modal.close')}
                 </button>
-                
+                <button
+                  type="button"
+                  data-autofocus
+                  onClick={() => setOpen(false)}
+                  className="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-secondary shadow-xs ring-1 ring-secondary ring-inset hover:bg-light-gray sm:mt-0 sm:w-auto cursor-pointer"
+                >
+                  {t('modal.viewAll')}
+                </button>
               </div>
             </DialogPanel>
           </div>

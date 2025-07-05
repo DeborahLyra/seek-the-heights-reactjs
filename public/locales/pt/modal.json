@@ -1,0 +1,10 @@
+{
+    "modal": {
+      "title": "Mensagem",
+      "text": "texto da mensagem",
+      "close": "Fechar",
+      "viewAll": "Ver todas as mensagens",
+      "openDialog": "Abrir diálogo"
+    }
+  }
+  
