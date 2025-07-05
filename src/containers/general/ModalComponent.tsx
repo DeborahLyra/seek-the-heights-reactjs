@@ -47,7 +47,7 @@ export default function ModalComponent({ open, setOpen }: { open: boolean, setOp
                 <button
                   type="button"
                   onClick={() => setOpen(false)}
-                  className="inline-flex w-full justify-center rounded-md bg-secondary px-3 py-2 text-sm font-semibold text-light-gray shadow-xs hover:bg-red-500 sm:ml-3 sm:w-auto"
+                  className="inline-flex w-full justify-center rounded-md bg-secondary px-3 py-2 text-sm font-semibold text-light-gray shadow-xs hover:bg-primary sm:ml-3 sm:w-auto cursor-pointer"
                 >
                   Fechar
                 </button>
