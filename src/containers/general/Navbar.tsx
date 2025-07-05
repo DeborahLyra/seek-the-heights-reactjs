@@ -10,19 +10,12 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from '@heroicons/react/24/outline';
-import { useNavigate } from 'react-router-dom';
 import CrossIcon from '../../../public/cross-icon.svg'
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { i18n } = useTranslation();
   const { t } = useTranslation('header');
-  const navigate = useNavigate();
-
-  const handleNavigate = (section: string) => {
-    setMobileMenuOpen(false);
-    navigate('/', { state: { scrollTo: section } });
-  };
 
   useEffect(() => {
     console.log('Current language:', i18n.language);
