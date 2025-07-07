@@ -47,13 +47,13 @@ export function Navbar() {
 
           <PopoverGroup className="hidden lg:flex lg:gap-x-12 items-center">
 
-            <a href='#examplesOfFaith' className="cursor-pointer text-md font-light text-secondary hover:text-dusty-orange transition-colors">
+            <a href='/#examplesOfFaith' className="cursor-pointer text-md font-light text-secondary hover:text-dusty-orange transition-colors">
               {t('navbar.faithExamples')}
             </a>
-            <a href='#miracles' className="cursor-pointer text-md font-light text-secondary hover:text-dusty-orange transition-colors">
+            <a href='/#miracles' className="cursor-pointer text-md font-light text-secondary hover:text-dusty-orange transition-colors">
               {t('navbar.miracles')}
             </a>
-            <a href='#linesAndSky' className="cursor-pointer text-md font-light text-secondary hover:text-dusty-orange transition-colors">
+            <a href='/#linesAndSky' className="cursor-pointer text-md font-light text-secondary hover:text-dusty-orange transition-colors">
               {t('navbar.linesAndSky')}
             </a>
 
@@ -102,19 +102,19 @@ export function Navbar() {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   <a
-                    href='#faithExamples'
+                    href='/#faithExamples'
                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-secondary hover:bg-white/20 hover:text-gray-500 cursor-pointer transition-colors"
                   >
                     {t('avbar.faithExamples')}
                   </a>
                   <a
-                    href='#miracles'
+                    href='/#miracles'
                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-secondary hover:bg-white/20 hover:text-gray-500 cursor-pointer transition-colors"
                   >
                     {t('navbar.miracles')}
                   </a>
                   <a
-                    href='#linesAndSky'
+                    href='/#linesAndSky'
                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-secondary hover:bg-white/20 hover:text-gray-500 cursor-pointer transition-colors"
                   >
                     {t('navbar.linesAndSky')}
