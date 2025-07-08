@@ -19,19 +19,19 @@ export function MiraclesPage() {
 
             <div>
 
-                <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div className="mt-8 flex flex-col gap-4">
                     {miraclesList.map((key) => (
                         <Link
                             to={`/single-faith-example/list.${key}.title`}
                             key={`list.${key}.title`}
-                            className="transform hover:scale-105 transition duration-300 shadow-md hover:shadow-xl rounded-xl overflow-hidden bg-white"
+                            className="flex items-center justify-items-center transform hover:scale-105 transition duration-300 shadow-md hover:shadow-xl rounded-xl overflow-hidden bg-light-gray"
                         >
                             <img
                                 src={t(`list.${key}.image`)}
                                 alt={t(`list.${key}.title`)}
-                                className="w-full h-64 object-center"
+                                className="h-36 object-center"
                             />
-                            <div className="p-4">
+                            <div className="p-4 border-l-2 border-l-primary">
                                 <h3 className="text-xl font-semibold mb-2">
                                     {t(`list.${key}.title`)}
                                 </h3>
@@ -44,14 +44,14 @@ export function MiraclesPage() {
                 </div>
 
             </div>
-            <Link to={'/faith-examples-page'} className="mt-8 flex justify-center">
+            <div className="mt-8 flex justify-center">
                 <button
                     className="px-6 py-3 bg-dusty-orange text-white rounded-lg text-sm font-medium hover:bg-orange-600 transition cursor-pointer"
 
                 >
                     {t('seeMore')}
                 </button>
-            </Link>
+            </div>
         </section>
 
     )
