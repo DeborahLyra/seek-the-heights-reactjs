@@ -28,14 +28,13 @@ export function Miracles() {
         ))}
       </div>
 
-      <div className="mt-8 flex justify-center">
+      <Link to={'/miracles-page'} className="mt-8 flex justify-center">
         <button
           className="px-6 py-3 bg-dusty-orange text-white rounded-lg text-sm font-medium hover:bg-orange-600 transition cursor-pointer"
-          onClick={() => alert("Ver mais clicado!")}
         >
           {t('seeMore')}
         </button>
-      </div>
+      </Link>
     </section>
   );
 }

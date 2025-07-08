@@ -1,20 +1,25 @@
 {
   "title": "Miracles",
-  "description": "Signs of God's love and mercy that remind us nothing is impossible for Him. Stories that strengthen faith and invite us to trust in divine action.",
+  "description": "Signs of God's love and mercy that remind us that nothing is impossible for Him. Stories that strengthen our faith and invite us to trust in divine action.",
+  "seeMore": "See more",
   "list": {
     "lanciano": {
       "title": "Eucharistic Miracle of Lanciano",
-      "description": "Consecrated host turned into flesh and wine into blood, verified by scientific studies."
+      "description": "A consecrated host that turned into flesh and wine into blood, confirmed by scientific studies.",
+      "image": "/img/miracles/default.png",
+      "content": "The Eucharistic Miracle of Lanciano is one of the most extraordinary and well-documented miracles in the history of the Catholic Church. It took place in the 8th century in the town of Lanciano, Italy, when a Basilian monk began to doubt the Real Presence of Christ in the Eucharist. During the celebration of Mass, after pronouncing the words of consecration, the priest witnessed the host visibly transform into human flesh and the wine into blood. The miracle left everyone present deeply astonished. Since then, the flesh and blood have been preserved without any form of artificial preservation for over 1,200 years. Scientific studies conducted in 1970 by a team of doctors and biochemists, including Professor Odoardo Linoli, confirmed that the flesh is cardiac tissue and the blood is of type AB—the same found on the Shroud of Turin. No preservatives or human interventions were found. The miracle is still on display at the Church of St. Francis in Lanciano, where thousands of faithful and curious visitors go every year. This powerful sign invites Catholics to renew their faith in the Real Presence of Jesus in the Eucharist and to rediscover the central importance of the Mass in Christian life. It is a witness to divine action that challenges science and deepens the mystery of faith."
     },
     "guadalupe": {
       "title": "Our Lady of Guadalupe",
-      "description": "The image imprinted on Juan Diego's cloak remains intact for centuries, defying scientific explanation."
+      "description": "The image imprinted on Juan Diego's cloak remains intact after centuries, defying scientific explanation.",
+      "image": "/img/miracles/default.png",
+      "content": "The miracle of Our Lady of Guadalupe is one of the most impressive and studied Marian events in the world. In 1531, on Tepeyac Hill near Mexico City, the Virgin Mary appeared to an indigenous man named Juan Diego. She asked that a church be built in her honor on that site. To confirm the apparition, Mary caused beautiful flowers to bloom miraculously during the winter. Juan Diego gathered the flowers in his tilma (cloak) and brought them to the bishop as a sign. When he opened the tilma before the bishop, an extraordinary image of Our Lady was revealed on the fabric. What makes this miracle so remarkable is that the image has remained intact for nearly 500 years, even though the material should have deteriorated within 20 years. Numerous scientific studies have failed to explain the origin of the image, which has no brushstrokes, pigments, or human artistic technique. Microscopic reflections of human figures are visible in the Virgin’s eyes, as if she were alive. The tilma is now preserved in the Basilica of Our Lady of Guadalupe and attracts millions of pilgrims every year. The apparition had a profound impact, leading to the conversion of millions of indigenous people to Christianity and becoming a symbol of faith and hope across Latin America. Guadalupe is a powerful reminder that Mary walks with her children and appears in history at moments of great need."
     },
     "fatima": {
-      "title": "The Miracle of the Sun in Fátima",
-      "description": "In front of thousands, the sun danced in the sky, spun around, and emitted multicolored lights."
+      "title": "The Miracle of the Sun at Fátima",
+      "description": "Before thousands of people, the sun danced in the sky, spun on itself, and emitted multicolored lights.",
+      "image": "/img/miracles/default.png",
+      "content": "The Miracle of the Sun occurred on October 13, 1917, in Cova da Iria, Fátima, Portugal. This extraordinary event was witnessed by over 70,000 people, including believers, skeptics, journalists, and scientists. It was the day of the final apparition of Our Lady to the three shepherd children: Lúcia, Francisco, and Jacinta. According to reports, after a time of intense prayer under heavy rain, the sky suddenly cleared, and the sun appeared in an unusual way—bright and spinning on itself like a wheel of fire. The sun seemed to approach the earth in a zigzag motion, causing panic among the crowd, who feared the end of the world. Then, it returned to its normal place, and those present noticed that their clothes, which had been soaked, were completely dry. The phenomenon lasted about 10 minutes. Journalists and photographers documented the event, which cannot be explained by any known natural or astronomical cause. Even secular news outlets reported on it. The Miracle of the Sun confirmed the messages given by Our Lady of Fátima, which called for conversion, penance, and the prayer of the Rosary. It was officially recognized by the Catholic Church in 1930. To this day, millions of pilgrims visit the Sanctuary of Fátima each year. This miracle remains a powerful reminder that God intervenes in history to awaken humanity to faith and hope. It echoes as a visible sign of divine presence in our world."
     }
-  },
-  "seeMore": "See more"
-
+  }
 }

@@ -1,19 +1,25 @@
 {
   "title": "Milagres",
   "description": "Sinais do amor e da misericórdia de Deus que nos recordam que nada é impossível para Ele. Histórias que fortalecem a fé e nos convidam a confiar no agir divino.",
+  "seeMore": "Ver mais",
   "list": {
     "lanciano": {
       "title": "Milagre Eucarístico de Lanciano",
-      "description": "Hóstia consagrada que se transformou em carne e vinho em sangue, comprovado por estudos científicos."
+      "description": "Hóstia consagrada que se transformou em carne e vinho em sangue, comprovado por estudos científicos.",
+      "image": "/img/miracles/default.png",
+      "content": "O Milagre Eucarístico de Lanciano é um dos milagres mais extraordinários e bem documentados da história da Igreja Católica. Ocorreu no século VIII na cidade de Lanciano, Itália, quando um monge basiliano começou a duvidar da presença real de Cristo na Eucaristia. Durante a celebração da Missa, após pronunciar as palavras da consagração, o sacerdote viu a hóstia se transformar visivelmente em carne humana e o vinho se converter em sangue. O milagre deixou todos os presentes profundamente impressionados. Desde então, a carne e o sangue foram preservados sem uso de conservantes por mais de 1200 anos. Estudos científicos realizados em 1970 por uma equipe de médicos e bioquímicos, incluindo o professor Odoardo Linoli, confirmaram que a carne é tecido cardíaco humano e o sangue é do tipo AB, o mesmo encontrado no Santo Sudário. Nenhum traço de preservação artificial foi encontrado. O milagre continua exposto na igreja de São Francisco em Lanciano, onde milhares de fiéis e curiosos visitam todos os anos. Este sinal poderoso convida os católicos a renovarem sua fé na presença real de Jesus na Eucaristia e a redescobrirem a importância da Missa como centro da vida cristã. É um testemunho da ação divina que desafia a ciência e reforça o mistério da fé."
     },
     "guadalupe": {
       "title": "Nossa Senhora de Guadalupe",
-      "description": "A imagem impressa no manto de Juan Diego permanece intacta há séculos, desafiando explicações científicas."
+      "description": "A imagem impressa no manto de Juan Diego permanece intacta há séculos, desafiando explicações científicas.",
+      "image": "/img/miracles/default.png",
+      "content": "O milagre de Nossa Senhora de Guadalupe é um dos eventos marianos mais impressionantes e estudados do mundo. Em 1531, na colina de Tepeyac, próximo à Cidade do México, a Virgem Maria apareceu a um indígena chamado Juan Diego. Ela pediu que uma igreja fosse construída naquele local em sua homenagem. Para provar a veracidade da aparição, Maria fez com que flores brotassem milagrosamente em pleno inverno. Juan Diego colheu as flores em seu manto (tilma) e as levou ao bispo como sinal. Ao abrir a tilma diante do bispo, revelou-se uma imagem extraordinária de Nossa Senhora estampada no tecido. O que torna esse milagre tão impressionante é que a imagem permanece intacta há quase 500 anos, apesar de estar impressa em um material que deveria ter se deteriorado em no máximo 20 anos. Diversos estudos científicos não conseguem explicar a origem da imagem, que não possui traços de pintura, pinceladas ou pigmentos conhecidos. Os olhos da Virgem contêm reflexos microscópicos de figuras humanas, como se ela estivesse viva. A tilma é hoje preservada na Basílica de Nossa Senhora de Guadalupe e atrai milhões de fiéis anualmente. A aparição teve um impacto profundo: converteu milhões de indígenas ao cristianismo e se tornou símbolo de fé e esperança para toda a América Latina. Guadalupe é sinal de que Maria caminha com seus filhos e se manifesta nos momentos de maior necessidade."
     },
     "fatima": {
       "title": "Milagre do Sol em Fátima",
-      "description": "Diante de milhares de pessoas, o sol dançou no céu, girou sobre si e emitiu luzes multicoloridas."
+      "description": "Diante de milhares de pessoas, o sol dançou no céu, girou sobre si e emitiu luzes multicoloridas.",
+      "image": "/img/miracles/default.png",
+      "content": "O Milagre do Sol ocorreu no dia 13 de outubro de 1917, na Cova da Iria, em Fátima, Portugal. Esse evento extraordinário foi testemunhado por mais de 70 mil pessoas, incluindo fiéis, céticos, jornalistas e cientistas. Era o dia da última das seis aparições de Nossa Senhora aos três pastorinhos: Lúcia, Francisco e Jacinta. Segundo relatos, após um período de intensa oração sob forte chuva, o céu se abriu e o sol surgiu de forma diferente: brilhante, girando sobre si mesmo como uma roda de fogo. O sol parecia aproximar-se da terra em movimentos zigzagueantes, gerando temor de um fim iminente. Em seguida, voltou ao seu lugar habitual e os fiéis notaram que suas roupas, antes encharcadas pela chuva, estavam completamente secas. O fenômeno durou cerca de 10 minutos. Jornalistas e fotógrafos presentes documentaram o evento, que não pode ser explicado por nenhuma causa natural ou astronômica. Até mesmo veículos de imprensa secular relataram o fato. O Milagre do Sol confirmou as mensagens transmitidas por Nossa Senhora de Fátima: o chamado à conversão, à penitência e à oração do rosário. Foi reconhecido oficialmente pela Igreja Católica em 1930. Até hoje, milhões de peregrinos visitam o Santuário de Fátima anualmente. Esse milagre permanece como um forte lembrete de que Deus intervém na história para despertar a humanidade para a fé e a esperança. Ele continua ecoando como sinal visível da presença divina em nosso mundo."
     }
-  },
-  "seeMore": "Ver mais"
+  }
 }
