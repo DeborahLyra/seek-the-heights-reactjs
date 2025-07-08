@@ -1,5 +1,6 @@
+import { ArrowCircleLeft } from "phosphor-react";
 import { useTranslation } from "react-i18next";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 
 export function SingleFaithExample() {
@@ -8,6 +9,7 @@ export function SingleFaithExample() {
 
     return (
         <section className="h-full bg-primary text-secondary p-8 text-center">
+            <Link to={'/faith-examples-page'}><ArrowCircleLeft size={24} /></Link>
             <h2 className="text-4xl font-bold mb-8">{t(`people.${id}.name`)}</h2>
 
             <div className="flex flex-col items-center justify-center">
