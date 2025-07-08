@@ -34,7 +34,7 @@ export function FaithExamples() {
       <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
         {listPeople.map((person) => (
           <Link
-            to={`/pessoas/${person.key}`}
+            to={`/single-faith-example/${person.key}`}
             key={person.key}
             className="transform hover:scale-105 transition duration-300 shadow-md hover:shadow-xl rounded-xl overflow-hidden bg-white"
           >
@@ -55,14 +55,14 @@ export function FaithExamples() {
         ))}
       </div>
 
-      <div className="mt-8 flex justify-center">
+      <Link to={'/faith-examples-page'} className="mt-8 flex justify-center">
         <button
           className="px-6 py-3 bg-dusty-orange text-white rounded-lg text-sm font-medium hover:bg-orange-600 transition cursor-pointer"
-          onClick={() => alert("Ver mais clicado!")}
+
         >
           {t('seeMore')}
         </button>
-      </div>
+      </Link>
     </section>
   );
 }

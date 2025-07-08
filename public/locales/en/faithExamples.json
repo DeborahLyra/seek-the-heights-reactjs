@@ -1,19 +1,25 @@
 {
-    "title": "Examples of Faith",
-    "description": "Lives that reflect the light from above and show us the path of true and living faith — with acts of love, surrender, and hope that transcend time and continue to touch hearts.",
-    "seeMore": "See more",
-    "people": {
-        "jesus": {
-          "name": "Jesus Christ",
-          "description": "Son of God, the ultimate example of love, faith, and complete surrender to the Father's will."
-        },
-        "mary": {
-          "name": "Mary",
-          "description": "Mother of Jesus, a model of humility, obedience, and complete trust in God."
-        },
-        "francis": {
-          "name": "St. Francis of Assisi",
-          "description": "A man of peace and simplicity who lived the Gospel radically and loved all creation."
-        }
-      }
+  "title": "Exemplos de Fé",
+  "description": "Vidas que refletem a luz do Alto e nos mostram o caminho da fé viva e verdadeira — com gestos de amor, entrega e esperança que atravessam os tempos e continuam a tocar corações.",
+  "seeMore": "Ver mais",
+  "people": {
+    "jesus": {
+      "name": "Jesus Cristo",
+      "description": "Filho de Deus, exemplo supremo de amor, fé e entrega total à vontade do Pai.",
+      "image": "/img/people/jesusImage.jpeg",
+      "content": "Jesus Cristo é o Filho Unigênito de Deus, enviado ao mundo para resgatar a humanidade da escuridão do pecado e revelar o amor infinito do Pai. Nascido em Belém, de Maria, uma jovem simples e cheia de fé, e concebido pelo Espírito Santo, Jesus é o Verbo encarnado, Deus feito homem. Desde o início, sua vida foi marcada por humildade, simplicidade e obediência à vontade divina. Aos 30 anos, iniciou seu ministério público anunciando o Reino de Deus. Suas palavras, cheias de sabedoria e autoridade, tocavam o coração dos pecadores, curavam os doentes e libertavam os oprimidos. Jesus não se restringia às normas sociais ou religiosas da época — acolhia prostitutas, cobradores de impostos e leprosos, mostrando que o amor de Deus é para todos. Com doze apóstolos ao seu lado, percorreu vilas e cidades pregando o Evangelho, multiplicando pães e peixes, caminhando sobre as águas, curando cegos, paralíticos e até ressuscitando os mortos. Mas seu maior ato de amor foi entregar-se na cruz. No Calvário, Jesus assumiu sobre si os pecados da humanidade e, com sua morte, nos reconciliou com o Pai. Ao terceiro dia, ressuscitou gloriosamente, vencendo a morte e oferecendo a todos a promessa da vida eterna. Apareceu aos discípulos, fortaleceu sua fé e os enviou em missão. Subiu aos céus, mas continua presente na Igreja, nos sacramentos e na vida de cada fiel. Seguir Jesus é mais do que aderir a uma religião — é viver um relacionamento pessoal com o Salvador, permitindo que sua Palavra transforme o coração. Ele é o Caminho que conduz à verdade, a Verdade que liberta e a Vida que jamais acaba. Nele encontramos sentido, perdão, paz e missão. Ele é o Alfa e o Ômega, o início e o fim de todas as coisas."
+    },
+    "mary": {
+      "name": "Maria",
+      "description": "Mãe de Jesus, modelo de humildade, obediência e confiança plena em Deus.",
+      "image": "/img/people/maryImage.jpeg",
+      "content": "Maria é a mulher mais importante da história da salvação depois de Jesus. Escolhida por Deus desde toda a eternidade, foi concebida sem pecado original e preparada para ser a Mãe do Salvador. No momento da Anunciação, ao ouvir o chamado do anjo Gabriel, respondeu com total liberdade e fé: “Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra”. Sua vida foi marcada pelo silêncio, pela contemplação e por uma confiança absoluta em Deus. Mesmo sem entender todos os mistérios, Maria guardava cada acontecimento em seu coração. Ela esteve presente nos momentos mais importantes da vida de Jesus: desde a manjedoura em Belém até o Calvário, onde, de pé junto à cruz, compartilhou a dor do Filho que entregava sua vida pela salvação do mundo. Maria foi a primeira discípula, modelo da Igreja e espelho de santidade. Após a ascensão de Jesus, permaneceu com os apóstolos, fortalecendo a comunidade nascente com sua presença orante. No Cenáculo, estava com eles quando o Espírito Santo desceu em Pentecostes. Assunta ao céu, Maria continua sua missão materna, intercedendo por todos os filhos da Igreja. Milhares de aparições e devoções marianas ao longo dos séculos testemunham seu cuidado constante com a humanidade. Lourdes, Fátima, Guadalupe e Aparecida são apenas algumas das manifestações do seu amor. Ser devoto de Maria é confiar numa Mãe que não abandona. É permitir-se conduzir por ela até Jesus. Através do rosário, da consagração e da imitação de suas virtudes, crescemos na fé, na humildade e no amor. Maria é a Mãe da Igreja, Rainha da Paz e Estrela da Evangelização. Quem a acolhe como mãe, jamais caminha sozinho."
+    },
+    "francis": {
+      "name": "São Francisco de Assis",
+      "description": "Homem de paz e simplicidade, que viveu o Evangelho com radicalidade e amor à criação.",
+      "image": "/img/people/stFrancisImage.jpeg",
+      "content": "São Francisco de Assis nasceu em 1182 na cidade de Assis, na Itália, em uma família rica de comerciantes. Na juventude, era vaidoso, sonhava com glória militar e apreciava festas. No entanto, após uma grave doença e uma experiência espiritual profunda, Francisco começou a perceber que sua verdadeira vocação era servir a Deus. Abandonou as riquezas e o prestígio, trocando suas roupas finas por um manto simples e um estilo de vida baseado no Evangelho. Francisco encontrou em Cristo pobre e crucificado o seu modelo de vida. Abraçou a pobreza com alegria, viveu da providência e passou a pregar o arrependimento e o amor a Deus com palavras e ações. Fundou a Ordem dos Frades Menores, que cresceu rapidamente. Ele desejava apenas “viver o Evangelho ao pé da letra”, e isso incluía amar os pobres, cuidar dos doentes e respeitar toda a criação. Tinha um carinho especial pelos animais e pela natureza, a quem chamava de irmãos. Sua espiritualidade ecológica inspira o mundo até hoje. Francisco via Deus em tudo: no sol, na água, na lua, nos pássaros, e até nos momentos de sofrimento. Sua humildade era tão radical que lavava os pés dos leprosos, pedia esmolas para os pobres e dormia ao relento. Em 1224, recebeu os estigmas — sinais das chagas de Cristo — em seu próprio corpo, tornando-se o primeiro santo da história a experimentar isso. Morreu dois anos depois, em 1226, cantando o Cântico das Criaturas e agradecendo a Deus pelo dom da vida. Foi canonizado apenas dois anos após sua morte. São Francisco é símbolo da paz, da simplicidade e do amor incondicional. Sua oração, “Senhor, fazei-me instrumento de vossa paz”, tornou-se um clamor universal por fraternidade. Ele nos convida a uma vida desapegada, livre do egoísmo, e inteiramente dedicada a Deus e ao próximo. Seu exemplo continua inspirando religiosos, leigos, jovens e todos aqueles que buscam uma vida mais autêntica e luminosa."
+    }
+  }
 }
