@@ -20,7 +20,7 @@ export function FaithExamplesPage() {
 
     return (
 
-        <section className="h-screen bg-primary text-secondary p-8">
+        <section className="h-full bg-primary text-secondary p-8">
             <div className="flex flex-col items-center justify-center">
                 <h2 className="text-3xl font-bold mb-8">{t('title')}</h2>
                 <p className="text-lg font-light md:w-[700px] text-center">
