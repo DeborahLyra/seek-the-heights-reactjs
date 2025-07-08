@@ -12,7 +12,7 @@ export function MiraclesPage() {
         <section className="h-full bg-primary text-secondary p-8">
             <div className="flex flex-col items-center justify-center">
                 <h2 className="text-3xl font-bold mb-8">{t('title')}</h2>
-                <p className="text-lg font-light md:w-[700px] text-center">
+                <p className="text-lg font-light text-center">
                     {t('description')}
                 </p>
             </div>
@@ -22,9 +22,9 @@ export function MiraclesPage() {
                 <div className="mt-8 flex flex-col gap-4">
                     {miraclesList.map((key) => (
                         <Link
-                            to={`/single-faith-example/list.${key}.title`}
+                            to={`/single-miracle/${key}`}
                             key={`list.${key}.title`}
-                            className="flex items-center justify-items-center transform hover:scale-105 transition duration-300 shadow-md hover:shadow-xl rounded-xl overflow-hidden bg-light-gray"
+                            className="flex items-center justify-items-center transform hover:scale-102 transition duration-300 shadow-md hover:shadow-xl rounded-xl overflow-hidden bg-light-gray"
                         >
                             <img
                                 src={t(`list.${key}.image`)}

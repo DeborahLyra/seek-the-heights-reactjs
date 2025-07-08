@@ -4,6 +4,7 @@ import DefaultLayout from "./layouts/DefaultLayout";
 import { FaithExamplesPage } from "./pages/FaithExamplesPage";
 import { SingleFaithExample } from "./pages/SingleFaithExample";
 import { MiraclesPage } from "./pages/MiraclesPage";
+import { SingleMiracle } from "./pages/SingleMiracle";
 
 
 
@@ -17,6 +18,7 @@ export function RouterComponent() {
                     <Route path="/faith-examples-page" element={<FaithExamplesPage />} />
                     <Route path="/single-faith-example/:id" element={<SingleFaithExample />} />
                     <Route path="/miracles-page" element={<MiraclesPage />} />
+                    <Route path="/single-miracle/:id" element={<SingleMiracle />} />
                 </Route>
             </Routes>
         </BrowserRouter>
