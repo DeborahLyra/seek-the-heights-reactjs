@@ -20,7 +20,7 @@ export function Miracles() {
           <Link
             to={`/milagres/${key}`}
             key={key}
-            className="block bg-white text-secondary p-6 rounded-xl shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+            className="block bg-white text-secondary p-6 rounded-xl shadow-md transition-transform duration-300 hover:scale-102 hover:shadow-lg"
           >
             <h3 className="text-xl font-semibold mb-2">{t(`list.${key}.title`)}</h3>
             <p className="text-base text-gray-700">{t(`list.${key}.description`)}</p>

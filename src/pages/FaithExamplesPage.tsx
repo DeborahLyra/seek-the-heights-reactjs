@@ -35,7 +35,7 @@ export function FaithExamplesPage() {
                         <Link
                             to={`/single-faith-example/${person.key}`}
                             key={person.key}
-                            className="transform hover:scale-105 transition duration-300 shadow-md hover:shadow-xl rounded-xl overflow-hidden bg-white"
+                            className="transform hover:scale-102 transition duration-300 shadow-md hover:shadow-xl rounded-xl overflow-hidden bg-white"
                         >
                             <img
                                 src={t(`people.${person.key}.image`)}
