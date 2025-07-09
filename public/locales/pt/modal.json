@@ -5,6 +5,11 @@
       "close": "Fechar",
       "viewAll": "Ver todas as mensagens",
       "openDialog": "Abrir diálogo"
+    },
+
+    "messagePage": {
+      "title": "Mensagem",
+      "subtitle": "texto da mensagem"
     }
   }
   

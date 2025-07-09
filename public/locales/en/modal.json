@@ -5,6 +5,10 @@
       "close": "Close",
       "viewAll": "View all messages",
       "openDialog": "Open dialog"
+    },
+    "messagePage": {
+      "title": "Messages",
+      "subtitle": "subtitle"
     }
   }
   

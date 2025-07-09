@@ -5,6 +5,7 @@ import { FaithExamplesPage } from "./pages/FaithExamplesPage";
 import { SingleFaithExample } from "./pages/SingleFaithExample";
 import { MiraclesPage } from "./pages/MiraclesPage";
 import { SingleMiracle } from "./pages/SingleMiracle";
+import { MessageList } from "./pages/MessageList";
 
 
 
@@ -19,6 +20,7 @@ export function RouterComponent() {
                     <Route path="/single-faith-example/:id" element={<SingleFaithExample />} />
                     <Route path="/miracles-page" element={<MiraclesPage />} />
                     <Route path="/single-miracle/:id" element={<SingleMiracle />} />
+                    <Route path="/message-list" element={<MessageList />} />
                 </Route>
             </Routes>
         </BrowserRouter>

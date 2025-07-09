@@ -1,12 +1,37 @@
 'use client'
-
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
 import CrossIcon from '../../../public/cross-icon.svg'
 import { useTranslation } from 'react-i18next'
+import { useEffect, useState } from 'react'
+import { supabase } from '../../lib/supabase'
+import type { Message } from '../../types/supabadeTypes'
+import { Link } from 'react-router-dom'
+
 
 export default function ModalComponent({ open, setOpen }: { open: boolean, setOpen: (value: boolean) => void }) {
   const { t } = useTranslation('modal')
+  const [lastMessage, setLastMessage] = useState<Message | null>(null)
 
+  useEffect(() => {
+    const fetchLastMessage = async () => {
+      const { data, error } = await supabase
+        .from('messages')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(1)
+        .single()
+
+      if (error) {
+        console.error('Erro ao buscar a última mensagem:', error.message)
+      } else {
+        setLastMessage(data)
+      }
+    }
+
+    fetchLastMessage()
+  }, [])
+
+console.log(lastMessage)
   return (
     <div>
       <Dialog open={open} onClose={setOpen} className="relative z-10">
@@ -28,11 +53,11 @@ export default function ModalComponent({ open, setOpen }: { open: boolean, setOp
                   </div>
                   <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                     <DialogTitle as="h3" className="text-base font-semibold text-secondary">
-                      {t('modal.title')}
+                      {lastMessage?.title}
                     </DialogTitle>
                     <div className="mt-2">
                       <p className="text-sm text-secondary">
-                        {t('modal.text')}
+                        {lastMessage?.content}
                       </p>
                     </div>
                   </div>
@@ -46,14 +71,15 @@ export default function ModalComponent({ open, setOpen }: { open: boolean, setOp
                 >
                   {t('modal.close')}
                 </button>
-                <button
+                <Link
+                  to={'/message-list'}
                   type="button"
                   data-autofocus
                   onClick={() => setOpen(false)}
                   className="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-secondary shadow-xs ring-1 ring-secondary ring-inset hover:bg-light-gray sm:mt-0 sm:w-auto cursor-pointer"
                 >
                   {t('modal.viewAll')}
-                </button>
+                </Link>
               </div>
             </DialogPanel>
           </div>
