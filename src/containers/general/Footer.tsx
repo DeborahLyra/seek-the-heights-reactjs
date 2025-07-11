@@ -4,7 +4,7 @@ export function Footer() {
     const { t } = useTranslation('footer');
 
     return (
-        <footer className="bg-primary text-secondary px-8 py-10 mt-16">
+        <footer className="bg-primary text-secondary px-8 py-10">
             <div className="flex flex-col md:flex-row justify-between items-center gap-6">
                 <div className="text-center md:text-left">
                     <p className="text-lg font-semibold">{t('quote')}</p>

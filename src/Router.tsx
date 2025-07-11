@@ -6,6 +6,7 @@ import { SingleFaithExample } from "./pages/SingleFaithExample";
 import { MiraclesPage } from "./pages/MiraclesPage";
 import { SingleMiracle } from "./pages/SingleMiracle";
 import { MessageList } from "./pages/MessageList";
+import LongTextsPage from "./pages/LongTextsPage";
 
 
 
@@ -21,6 +22,7 @@ export function RouterComponent() {
                     <Route path="/miracles-page" element={<MiraclesPage />} />
                     <Route path="/single-miracle/:id" element={<SingleMiracle />} />
                     <Route path="/message-list" element={<MessageList />} />
+                    <Route path="/long-texts-page" element={<LongTextsPage />} />
                 </Route>
             </Routes>
         </BrowserRouter>

@@ -18,7 +18,7 @@ export function Miracles() {
       <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
         {miraclesList.map((key) => (
           <Link
-            to={`/milagres/${key}`}
+            to={`/single-miracle/${key}`}
             key={key}
             className="block bg-white text-secondary p-6 rounded-xl shadow-md transition-transform duration-300 hover:scale-102 hover:shadow-lg"
           >
