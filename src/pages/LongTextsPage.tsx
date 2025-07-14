@@ -29,7 +29,7 @@ export default function LongTextsPage() {
     }, [])
     return (
         <section className="h-[100vh] bg-primary text-secondary p-8">
-            <Link to={'/long-texts-page'}><ArrowCircleLeft size={24} /></Link>
+            <Link to={'/'}><ArrowCircleLeft size={24} /></Link>
             <div className="flex flex-col items-center justify-center">
                 <h2 className="text-3xl font-bold mb-8">{t('title')}</h2>
                 <p className="text-lg font-light text-center">
