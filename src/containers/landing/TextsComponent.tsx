@@ -38,7 +38,7 @@ export function TextComponent() {
       <div className="mt-8 flex flex-col gap-2">
         {longText.map((text) => (
           <Link
-            to={`/long-texts-page`}
+            to={`/long-text/${text.id}`}
             key={text.title}
             className="block bg-white text-secondary p-6 rounded-xl shadow-md transition-transform duration-300 hover:scale-102 hover:shadow-lg"
           >

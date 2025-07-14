@@ -29,7 +29,7 @@ export default function LongTextsPage() {
     }, [])
     return (
         <section className="h-[100vh] bg-primary text-secondary p-8">
-            <Link to={'/'}><ArrowCircleLeft size={24} /></Link>
+            <Link to={'/long-texts-page'}><ArrowCircleLeft size={24} /></Link>
             <div className="flex flex-col items-center justify-center">
                 <h2 className="text-3xl font-bold mb-8">{t('title')}</h2>
                 <p className="text-lg font-light text-center">
@@ -40,7 +40,8 @@ export default function LongTextsPage() {
 
                 <div className="mt-8 flex flex-col gap-4">
                     {longText.map((text) => (
-                        <div
+                        <Link
+                            to={`/long-text/${text.id}`}
                             key={text.title}
                             className="flex items-center justify-items-center transform hover:scale-102 transition duration-300 shadow-md hover:shadow-xl rounded-xl overflow-hidden bg-light-gray cursor-pointer"
                         >
@@ -52,7 +53,7 @@ export default function LongTextsPage() {
                                     {text.description}
                                 </p>
                             </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
 

@@ -7,6 +7,7 @@ import { MiraclesPage } from "./pages/MiraclesPage";
 import { SingleMiracle } from "./pages/SingleMiracle";
 import { MessageList } from "./pages/MessageList";
 import LongTextsPage from "./pages/LongTextsPage";
+import { SingleLongText } from "./pages/SingleLongText";
 
 
 
@@ -23,6 +24,7 @@ export function RouterComponent() {
                     <Route path="/single-miracle/:id" element={<SingleMiracle />} />
                     <Route path="/message-list" element={<MessageList />} />
                     <Route path="/long-texts-page" element={<LongTextsPage />} />
+                    <Route path="/long-text/:id" element={<SingleLongText />} />
                 </Route>
             </Routes>
         </BrowserRouter>
