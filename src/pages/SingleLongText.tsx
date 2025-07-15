@@ -3,6 +3,8 @@ import { useEffect, useState } from "react"
 import { Link, useParams } from "react-router-dom"
 import { supabase } from "../lib/supabase"
 import type { LongText } from "../types/supabadeTypes"
+import Lottie from "lottie-react";
+import loadingFile from '../../public/img/loadingLottieFile.json'
 
 export function SingleLongText() {
     const { id } = useParams()
@@ -29,7 +31,15 @@ export function SingleLongText() {
     }, [id])
 
     if (!longText) {
-        return <p>Carregando...</p>
+        return (
+            <div className="min-h-[100vh] bg-primary flex justify-center items-center h-screen">
+                <Lottie
+                    animationData={loadingFile}
+                    loop={true}
+                    style={{ width: 200, height: 200 }}
+                />
+            </div>
+        )
     }
 
     return (

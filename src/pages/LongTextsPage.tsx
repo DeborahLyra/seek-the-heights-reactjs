@@ -4,6 +4,8 @@ import { useTranslation } from "react-i18next"
 import type { LongText } from "../types/supabadeTypes"
 import { Link } from "react-router-dom"
 import { ArrowCircleLeft } from "phosphor-react"
+import Lottie from "lottie-react"
+import loadingFile from '../../public/img/loadingLottieFile.json'
 
 
 export default function LongTextsPage() {
@@ -27,6 +29,18 @@ export default function LongTextsPage() {
 
         fetchMessages()
     }, [])
+    if (!longText) {
+        return (
+            <div className="min-h-[100vh] bg-primary flex justify-center items-center h-screen">
+                <Lottie
+                    animationData={loadingFile}
+                    loop={true}
+                    style={{ width: 200, height: 200 }}
+                />
+            </div>
+        )
+    }
+
     return (
         <section className="h-[100vh] bg-primary text-secondary p-8">
             <Link to={'/'}><ArrowCircleLeft size={24} /></Link>
