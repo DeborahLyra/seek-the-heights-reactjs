@@ -8,11 +8,13 @@ import { SingleMiracle } from "./pages/SingleMiracle";
 import { MessageList } from "./pages/MessageList";
 import LongTextsPage from "./pages/LongTextsPage";
 import { SingleLongText } from "./pages/SingleLongText";
+import LoginPage from "./pages/LoginPage";
 
 export function RouterComponent() {
     return (
         <BrowserRouter basename="/">
             <Routes>
+                <Route path="login" element={<LoginPage />} />
                 <Route path="/" element={<DefaultLayout />}>
                     <Route index element={<HomePage />} />
                     <Route path="faith-examples-page" element={<FaithExamplesPage />} />
