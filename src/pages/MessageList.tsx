@@ -31,7 +31,7 @@ export function MessageList() {
 
   if (!messages) {
     return (
-        <div className="min-h-[100vh] bg-primary flex justify-center items-center h-screen">
+        <div className="min-h-screen bg-primary flex justify-center items-center h-screen">
             <Lottie
                 animationData={loadingFile}
                 loop={true}

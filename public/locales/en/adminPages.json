@@ -1,0 +1,11 @@
+{
+    "dashboard": {
+      "adminDashboard": {
+        "title": "Seek the Heights",
+        "manageShortMessages": "Manage Short Messages",
+        "manageLongTexts": "Manage Long Texts",
+        "logout": "Logout"
+      }
+    }
+  }
+  

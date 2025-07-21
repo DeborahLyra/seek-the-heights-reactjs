@@ -1,18 +1,37 @@
 import { Link } from "react-router-dom"
 import { useAuth } from "../../contexts/AuthContext"
-
+import { useTranslation } from "react-i18next"
 
 export function AdminDashboard() {
   const { signOut } = useAuth()
+  const { t } = useTranslation('adminPages')
 
   return (
-    <div className="p-8">
-      <h1 className="text-xl mb-4">Admin Dashboard</h1>
-      <div className="flex flex-col gap-2">
-        <Link to="/admin/messages">Gerenciar Mensagens Curtas</Link>
-        <Link to="/admin/long-texts">Gerenciar Textos Longos</Link>
-        <button onClick={signOut} className="mt-4 bg-red-500 text-white p-2">Sair</button>
+    <div className="min-h-screen bg-primary flex flex-col justify-around items-center h-screen px-4">
+      <h1 className="text-5xl font-bold text-center">{t('dashboard.adminDashboard.title')}</h1>
+
+      <div className="mt-8 flex flex-col gap-4 w-full max-w-3xl">
+        <Link 
+          to="/admin/messages"
+          className="h-18 flex items-center justify-center text-lg font-bold transform hover:scale-105 transition duration-300 shadow-md hover:shadow-xl rounded-xl overflow-hidden bg-light-gray p-4 text-center"
+        >
+          {t('dashboard.adminDashboard.manageShortMessages')}
+        </Link>
+
+        <Link 
+          to="/admin/long-texts"
+          className="h-18 flex items-center justify-center text-lg font-bold transform hover:scale-105 transition duration-300 shadow-md hover:shadow-xl rounded-xl overflow-hidden bg-light-gray p-4 text-center"
+        >
+          {t('dashboard.adminDashboard.manageLongTexts')}
+        </Link>
       </div>
+
+      <button 
+        onClick={signOut} 
+        className="w-96 max-w-full mt-8 rounded-lg bg-red-500 text-white py-2 font-semibold hover:bg-red-600 transition"
+      >
+        {t('dashboard.adminDashboard.logout')}
+      </button>
     </div>
   )
 }

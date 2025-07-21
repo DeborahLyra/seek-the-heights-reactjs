@@ -1,0 +1,11 @@
+{
+    "dashboard": {
+      "adminDashboard": {
+        "title": "Buscar o Alto",
+        "manageShortMessages": "Gerenciar Mensagens Curtas",
+        "manageLongTexts": "Gerenciar Textos Longos",
+        "logout": "Sair"
+      }
+    }
+  }
+  

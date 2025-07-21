@@ -43,7 +43,7 @@ export function SingleLongText() {
     }
 
     return (
-        <section className="min-h-[100vh] bg-primary text-secondary p-8 text-center">
+        <section className="min-h-screen bg-primary text-secondary p-8 text-center">
             <Link to={'/long-texts-page'}>
                 <ArrowCircleLeft size={24} />
             </Link>
