@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom"
 import { useAuth } from "../../contexts/AuthContext"
 import { useTranslation } from "react-i18next"
+import bgImage from '../../../public/img/imagemBanner.jpeg'
 
 export function AdminDashboard() {
   const { signOut } = useAuth()
   const { t } = useTranslation('adminPages')
 
   return (
-    <div className="min-h-screen bg-primary flex flex-col justify-around items-center h-screen px-4">
+    <div className="min-h-screen bg-cover bg-center flex flex-col justify-around items-center h-screen px-4"
+    style={{ backgroundImage: `url(${bgImage})` }}
+    >
       <h1 className="text-5xl font-bold text-center">{t('dashboard.adminDashboard.title')}</h1>
 
       <div className="mt-8 flex flex-col gap-4 w-full max-w-3xl">
