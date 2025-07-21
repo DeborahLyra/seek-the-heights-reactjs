@@ -8,7 +8,7 @@ import { Miracles } from "../containers/landing/Miracles";
 import { TextComponent } from "../containers/landing/TextsComponent";
 
 
-export default function HomePage() {
+export function HomePage() {
   return (
     <div>
      

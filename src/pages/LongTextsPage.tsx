@@ -8,7 +8,7 @@ import Lottie from "lottie-react"
 import loadingFile from '../../public/img/loadingLottieFile.json'
 
 
-export default function LongTextsPage() {
+export function LongTextsPage() {
 
     const { t } = useTranslation('textComponent')
     const [longText, setLongText] = useState<LongText[]>([])

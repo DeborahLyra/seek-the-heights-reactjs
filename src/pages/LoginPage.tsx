@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 import CrossIcon from '../../public/cross-icon.svg'
 import bgImage from '../../public/img/imagemBanner.jpeg'
 
-export default function LoginPage() {
+export function LoginPage() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [error, setError] = useState('')
