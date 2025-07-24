@@ -59,7 +59,7 @@ export function ManageMessagesPage() {
   return (
     <div className="p-8 bg-primary min-h-screen text-secondary">
       <Link to={'/admin'}><ArrowCircleLeft size={24} /></Link>
-      <h1 className="text-xl font-bold mb-4">Gerenciar Mensagens Curtas</h1>
+      <h1 className="mt-2 text-xl font-bold mb-4">Gerenciar Mensagens Curtas</h1>
 
       <div className="mb-4">
         <textarea
