@@ -11,8 +11,9 @@ import { SingleLongText } from "./pages/SingleLongText";
 import { LoginPage } from "./pages/LoginPage";
 import { PrivateRoute } from "./containers/general/PrivateRoute";
 import { AdminDashboard } from "./pages/admin/AdminDashboard";
-import { ManageMessagesPage } from '../src/pages/admin/ManageMessagesPage'
 import { ManageLongTextsPage } from "./pages/admin/ManageLongTextsPage";
+import { ManageMessagesPage } from "./pages/admin/ManageMessagesPage";
+
 
 export function RouterComponent() {
     return (
