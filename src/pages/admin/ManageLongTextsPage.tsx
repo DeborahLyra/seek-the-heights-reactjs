@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import { supabase } from "../../lib/supabase"
 import type { LongText } from "../../types/supabadeTypes"
 import { PencilSquareIcon, TrashIcon } from "@heroicons/react/16/solid"
+import { Link } from "react-router-dom"
+import { ArrowCircleLeft } from "phosphor-react"
 
 export function ManageLongTextsPage() {
   const [texts, setTexts] = useState<LongText[]>([])
@@ -74,6 +76,7 @@ export function ManageLongTextsPage() {
 
   return (
     <div className="p-8 bg-primary min-h-screen text-secondary">
+      <Link to={'/admin'}><ArrowCircleLeft size={24} /></Link>
       <h1 className="text-xl font-bold mb-4">Adicionar Texto Longo</h1>
 
       <input

@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import { supabase } from "../../lib/supabase"
 import type { Message } from "../../types/supabadeTypes"
 import { PencilSquareIcon, TrashIcon } from "@heroicons/react/16/solid"
+import { Link } from "react-router-dom"
+import { ArrowCircleLeft } from "phosphor-react"
 
 export function ManageMessagesPage() {
   const [messages, setMessages] = useState<Message[]>([])
@@ -56,6 +58,7 @@ export function ManageMessagesPage() {
 
   return (
     <div className="p-8 bg-primary min-h-screen text-secondary">
+      <Link to={'/admin'}><ArrowCircleLeft size={24} /></Link>
       <h1 className="text-xl font-bold mb-4">Gerenciar Mensagens Curtas</h1>
 
       <div className="mb-4">
@@ -100,13 +103,13 @@ export function ManageMessagesPage() {
                     onClick={() => startEditing(msg.id, msg.content)}
                     className="text-secondary"
                   >
-                    <PencilSquareIcon className="h-4"/>
+                    <PencilSquareIcon className="h-4" />
                   </button>
                   <button
                     onClick={() => deleteMessage(msg.id)}
                     className="text-red-500"
                   >
-                    <TrashIcon className="h-4"/>
+                    <TrashIcon className="h-4" />
                   </button>
                 </div>
               </div>
