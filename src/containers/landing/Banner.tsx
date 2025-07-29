@@ -8,7 +8,7 @@ export function Banner() {
     return (
         <section
             id='banner'
-            className="h-[40rem] bg-cover bg-bottom text-white p-4 md:p-8 flex items-center  flex-col gap-8 md:flex-row"
+            className="h-[40rem] bg-cover bg-bottom text-light-gray p-4 md:p-8 flex items-center  flex-col gap-8 md:flex-row"
             style={{ backgroundImage: `url(${bgImage})` }}
         >
             <div className=''>
