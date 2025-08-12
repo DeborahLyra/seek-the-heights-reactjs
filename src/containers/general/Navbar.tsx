@@ -25,7 +25,7 @@ export function Navbar() {
 
   return (
     <>
-      <header className="bg-light-gray fixed w-full">
+      <header className="bg-light-gray fixed w-full z-10">
         <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8">
           <div className="flex lg:flex-1">
             <a href='/#banner' className="-m-1.5 p-1.5 cursor-pointer">
