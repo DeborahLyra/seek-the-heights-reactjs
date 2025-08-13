@@ -8,7 +8,7 @@ export function SingleFaithExample() {
     const { id } = useParams()
 
     return (
-        <section className="h-full bg-primary text-secondary p-8 text-center">
+        <section className="min-h-screen bg-primary text-secondary p-8 text-center">
             <Link to={'/faith-examples-page'}><ArrowCircleLeft size={24} /></Link>
             <h2 className="text-4xl font-bold mb-8">{t(`people.${id}.name`)}</h2>
 
