@@ -17,7 +17,7 @@ export default function ModalComponent({ open, setOpen }: { open: boolean, setOp
       const { data, error } = await supabase
         .from('messages')
         .select('*')
-        .order('created_at', { ascending: true })
+        .order('created_at', { ascending: false })
         .limit(1)
         .single()
 
