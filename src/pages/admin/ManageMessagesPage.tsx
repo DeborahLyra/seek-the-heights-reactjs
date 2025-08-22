@@ -16,7 +16,7 @@ export function ManageMessagesPage() {
   }, [])
 
   const fetchMessages = async () => {
-    const { data, error } = await supabase.from('messages').select('*')
+    const { data, error } = await supabase.from('messages').select('*').order('created_at', { ascending: false })
     if (error) console.error(error)
     else setMessages(data as Message[])
   }
