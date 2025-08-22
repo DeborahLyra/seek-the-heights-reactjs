@@ -105,7 +105,7 @@ export function Navbar() {
                     href='/#faithExamples'
                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-light text-secondary hover:bg-white/20 hover:text-gray-500 cursor-pointer transition-colors"
                   >
-                    {t('avbar.faithExamples')}
+                    {t('navbar.faithExamples')}
                   </a>
                   <a
                     href='/#miracles'
