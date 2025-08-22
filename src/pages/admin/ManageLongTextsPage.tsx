@@ -9,8 +9,10 @@ export function ManageLongTextsPage() {
   const [texts, setTexts] = useState<LongText[]>([])
   const [editingId, setEditingId] = useState<string | null>(null)
   const [editingTitle, setEditingTitle] = useState("")
+  const [editingDescription, setEditingDescription] = useState("")
   const [editingContent, setEditingContent] = useState("")
   const [newTitle, setNewTitle] = useState("")
+  const [newDescription, setNewDescription] = useState("")
   const [newContent, setNewContent] = useState("")
 
   useEffect(() => {
@@ -28,14 +30,27 @@ export function ManageLongTextsPage() {
   }
 
   const handleAdd = async () => {
-    if (!newTitle.trim() || !newContent.trim()) return
+    if (!newTitle.trim() || !newDescription.trim() || !newContent.trim()) return
+
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) {
+      console.error("Usuário não logado")
+      return
+    }
+
     const { error } = await supabase
       .from('long_texts')
-      .insert([{ title: newTitle, content: newContent }])
+      .insert([{
+        title: newTitle,
+        description: newDescription,
+        content: newContent,
+        user_id: user.id
+      }])
 
     if (error) console.error(error)
     else {
       setNewTitle("")
+      setNewDescription("")
       setNewContent("")
       fetchTexts()
     }
@@ -44,26 +59,34 @@ export function ManageLongTextsPage() {
   const handleEdit = (text: LongText) => {
     setEditingId(text.id)
     setEditingTitle(text.title)
+    setEditingDescription(text.description)
     setEditingContent(text.content)
   }
 
   const cancelEdit = () => {
     setEditingId(null)
     setEditingTitle("")
+    setEditingDescription("")
     setEditingContent("")
   }
 
   const saveEdit = async (id: string) => {
-    if (!editingTitle.trim() || !editingContent.trim()) return
+    if (!editingTitle.trim() || !editingDescription.trim() || !editingContent.trim()) return
+
     const { error } = await supabase
       .from('long_texts')
-      .update({ title: editingTitle, content: editingContent })
+      .update({
+        title: editingTitle,
+        description: editingDescription,
+        content: editingContent
+      })
       .eq('id', id)
 
     if (error) console.error(error)
     else {
       setEditingId(null)
       setEditingTitle("")
+      setEditingDescription("")
       setEditingContent("")
       fetchTexts()
     }
@@ -84,6 +107,13 @@ export function ManageLongTextsPage() {
         value={newTitle}
         onChange={(e) => setNewTitle(e.target.value)}
         placeholder="Título"
+        className="border p-2 mb-2 block w-full rounded-lg"
+      />
+      <input
+        type="text"
+        value={newDescription}
+        onChange={(e) => setNewDescription(e.target.value)}
+        placeholder="Breve descrição"
         className="border p-2 mb-2 block w-full rounded-lg"
       />
       <textarea
@@ -112,6 +142,13 @@ export function ManageLongTextsPage() {
                   placeholder="Editar título"
                   className="border p-2 mb-2 w-full rounded-lg"
                 />
+                <input
+                  type="text"
+                  value={editingDescription}
+                  onChange={(e) => setEditingDescription(e.target.value)}
+                  placeholder="Editar descrição"
+                  className="border p-2 mb-2 w-full rounded-lg"
+                />
                 <textarea
                   value={editingContent}
                   onChange={(e) => setEditingContent(e.target.value)}
@@ -136,7 +173,8 @@ export function ManageLongTextsPage() {
             ) : (
               <>
                 <h3 className="font-bold text-lg">{text.title}</h3>
-                <p className="text-sm text-gray-700 whitespace-pre-line">{text.content}</p>
+                <p className="italic text-gray-600">{text.description}</p>
+                <p className="text-sm text-gray-700 whitespace-pre-line mt-1">{text.content}</p>
                 <div className="mt-2 flex gap-4">
                   <button
                     onClick={() => handleEdit(text)}

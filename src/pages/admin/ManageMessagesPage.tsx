@@ -23,13 +23,24 @@ export function ManageMessagesPage() {
 
   const addMessage = async () => {
     if (!newMessage.trim()) return
-    const { error } = await supabase.from('messages').insert([{ content: newMessage.trim() }])
+  
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) return 
+  
+    const { error } = await supabase.from('messages').insert([
+      {
+        content: newMessage.trim(),
+        user_id: user.id
+      }
+    ])
+  
     if (error) console.error(error)
     else {
       setNewMessage("")
       fetchMessages()
     }
   }
+  
 
   const deleteMessage = async (id: string) => {
     await supabase.from('messages').delete().eq('id', id)

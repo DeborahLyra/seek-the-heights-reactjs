@@ -4,7 +4,7 @@ export type LongText = {
     created_at: string
     user_id: string
     title: string
-    description?: string
+    description: string
     content: string
   }
   
